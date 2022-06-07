@@ -1,0 +1,32 @@
+.page {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    list-style: none;
+}
+
+/* основнйо цвет тексат #000000 */
+
+/* вторичный цвет текста rgba(0, 0, 0, 0.8) */
+
+/* белый #FFFFFF */
+
+/* акцент #18A0FB */
+
+/* вторичный цвет фона #F5F5F5 */
+
+.logo {
+    color: black;
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: #18A0FB ;
+}
+
+.site-nav .link:hover {
+    color: black;
+}
