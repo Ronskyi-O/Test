@@ -1,35 +1,49 @@
-.page {
-    background-color: #fff;
-    color: rgba(0, 0, 0, 0.8);
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 body {
-    font-family: montserrat, sans-serif;
-}
-ul {
-    list-style: none; 
+  margin: 0;
+  font-family: 'montserrat', sans-serif;
 }
 
-/* основнйо цвет тексат #000000 */
-
-/* вторичный цвет текста rgba(0, 0, 0, 0.8) */
-
-/* белый #FFFFFF */
-
-/* акцент #18A0FB */
-
-/* вторичный цвет фона #F5F5F5 */
-
-.logo {
-    color: black;
+.box {
+  height: 100px;
+  width: 500px;
+  background-color: blueviolet;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* site nav */
-
-.site-nav .link {
-    color: #18A0FB ;
+.conteiner {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.site-nav .link:hover {
-    color: black;
+.btn {
+  width: 200px;
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: wheat;
+  vertical-align: bottom;
 }
