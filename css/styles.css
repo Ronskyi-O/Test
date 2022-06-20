@@ -13,14 +13,6 @@ body {
   font-family: 'montserrat', sans-serif;
 }
 
-.box {
-  height: 100px;
-  width: 500px;
-  background-color: blueviolet;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .conteiner {
   width: 1230px;
   padding-left: 15px;
@@ -46,4 +38,25 @@ body {
   height: 20px;
   background-color: wheat;
   vertical-align: bottom;
+}
+.box::before {
+  content: 'Это текст в ::before';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: 'Это текст в ::after';
+  font-size: 30px;
+  color: teal;
+}
+
+/* Применить стили к псевдоэлементу .box::before при ховере по элементу .box */
+.box:hover::before {
+  color: green;
+}
+
+/* Применить стили к псевдоэлементу .box::after при ховере по элементу .box */
+.box:hover::after {
+  color: tomato;
 }
