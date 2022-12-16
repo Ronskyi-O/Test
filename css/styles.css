@@ -28,57 +28,51 @@ body {
   background-color: rgba(237, 233, 233, 0.4);
 }
 
-.statistics {
-  /* text-align: center; */
-  border: 1px solid grey;
-  border-radius: 5px;
-  width: 300px;
-  margin-top: 20px;
-  background-color: #fff;
-}
-
-.title {
-  padding-top: 40px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: grey;
-}
-
-.stat-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.friend-list {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  border: 1px solid black;
 }
 
 .item {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 10px;
-  font-size: 14px;
-  font-weight: 500;
+  color: black;
+  border: 1px solid black;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-color: green;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #fff;
-  background-color: red;
-}
-
-.label {
-  margin-bottom: 10px;
-}
-
-.percentage {
-  font-size: 20px;
+  border: 1px solid black;
 }
